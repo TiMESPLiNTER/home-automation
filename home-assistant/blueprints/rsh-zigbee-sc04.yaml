@@ -8,9 +8,13 @@ blueprint:
       description: Tuya 4-Button Scene Switch to use
       selector:
         device:
-          integration: zha
-          manufacturer: _TZ3000_wkai4ga5
-          model: TS0044
+          filter:
+            - integration: zha
+              manufacturer: _TZ3000_vp6clf9d
+              model: TS0044
+            - integration: zha
+              manufacturer: _TZ3000_wkai4ga5
+              model: TS0044
     button_one_short_press:
       name: Single Press
       description: Action to run on button 1 (lower-left) single press
