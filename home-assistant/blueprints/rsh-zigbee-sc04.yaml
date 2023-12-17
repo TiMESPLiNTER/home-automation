@@ -9,10 +9,10 @@ blueprint:
       selector:
         device:
           filter:
-            - integration: zha
+            - integration: deconz
               manufacturer: _TZ3000_vp6clf9d
               model: TS0044
-            - integration: zha
+            - integration: deconz
               manufacturer: _TZ3000_wkai4ga5
               model: TS0044
     button_one_short_press:
